@@ -6,4 +6,3 @@ jobs:
     steps:
     - name: SSH connection to Actions
       uses: p3terx/debugger-action@master
-
