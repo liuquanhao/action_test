@@ -1,6 +1,5 @@
-on:
-  watch:
-    types: [push]
+name: Ubuntu ssh test
+on: [push]
 jobs:
   Ubuntu:
     runs-on: ubuntu-latest
