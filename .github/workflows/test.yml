@@ -1,8 +1,8 @@
-name: Macos ssh test
+name: Windows ssh test
 on: [push]
 jobs:
   Ubuntu:
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
     - name: SSH connection to Actions
       uses: p3terx/debugger-action@master
